@@ -12,5 +12,24 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
-}
+
+    tutorials.forEach((element) => {
+      const newElement = element.charAt()
+      tutorials.map(
+        newElement.toTitleCased()
+      )
+
+      return newElement
+
+    }
+
+
+    )
+  
+    }
+   
+
+
+// for (var i = 0; i < str.length; i++) {
+//   console.log(str.charAt(i));
+// }
